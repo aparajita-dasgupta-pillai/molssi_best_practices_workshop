@@ -31,7 +31,7 @@ def calculate_distance(rA, rB):
     >>> calculate_distance(r1, r2)
     0.1
     """
-    
+
     d = rA - rB
     dist = np.linalg.norm(d)
     return dist
